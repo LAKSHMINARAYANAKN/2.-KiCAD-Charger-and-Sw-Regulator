@@ -1,0 +1,16 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# KiCAD_Demo_BlockDiagram
+#
+DEF KiCAD_Demo_BlockDiagram BD 0 0 N N 1 F N
+F0 "BD" 400 350 59 H I C CNN
+F1 "KiCAD_Demo_BlockDiagram" 400 350 59 H I C CNN
+F2 "" 400 350 59 H I C CNN
+F3 "" 400 350 59 H I C CNN
+DRAW
+S -100 200 800 -300 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+#End Library
