@@ -1,15 +1,232 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# KiCAD_Demo_BlockDiagram
+# Connector_Conn_01x02_Female
 #
-DEF KiCAD_Demo_BlockDiagram BD 0 0 N N 1 F N
-F0 "BD" 400 350 59 H I C CNN
-F1 "KiCAD_Demo_BlockDiagram" 400 350 59 H I C CNN
-F2 "" 400 350 59 H I C CNN
-F3 "" 400 350 59 H I C CNN
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
 DRAW
-S -100 200 800 -300 0 1 20 f
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_0u1F
+#
+DEF KiCAD_Demo_0u1F C 0 40 N N 1 F N
+F0 "C" 100 0 39 H V C CNN
+F1 "KiCAD_Demo_0u1F" 100 -100 28 H V C CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:C0402" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/yageo/CC0402KRX5R9BB104/311-3342-1-ND/6818312" -200 -350 50 H I C CNN "Digikey"
+F5 "CC0402KRX5R9BB104" 0 -350 50 H I C CNN "Part Number"
+F6 "CAP CER 0.1UF 50V X5R 0402" -100 -350 50 H I C CNN "Description"
+F7 "Yageo" -50 -350 50 H I C CNN "Manufacturer"
+ALIAS untitled
+DRAW
+S 50 -50 -50 -50 0 1 0 N
+S 50 0 -50 0 0 1 0 N
+X 1 1 0 100 100 D 50 50 1 1 I
+X 2 2 0 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_10118193-0001LF(MicroUSB)
+#
+DEF KiCAD_Demo_10118193-0001LF(MicroUSB) J 0 40 Y Y 1 F N
+F0 "J" 250 900 49 H V C CNN
+F1 "KiCAD_Demo_10118193-0001LF(MicroUSB)" 450 -50 39 H V C CNN
+F2 "" 0 0 46 H I C CNN
+F3 "" 0 0 46 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380" 0 -200 50 H I C CNN "Digikey"
+F5 "CONN RCPT USB2.0 MICRO B SMD R/A" 0 -200 50 H I C CNN "Description"
+F6 "Amphenol ICC (FCI)" 0 -200 50 H I C CNN "Manufacturer"
+F7 "10118193-0001LF" 0 -200 50 H I C CNN "Part Number"
+DRAW
+S 100 850 550 0 0 1 0 N
+X VUSB 1 650 700 100 L 50 50 1 1 P
+X DM_N 2 650 550 100 L 50 50 1 1 I
+X DP_P 3 650 450 100 L 50 50 1 1 I
+X ID 4 650 350 100 L 50 50 1 1 P
+X GND 5 650 150 100 L 50 50 1 1 P
+X ~ 6 0 50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_10K
+#
+DEF KiCAD_Demo_10K R 0 10 N N 1 F N
+F0 "R" -25 75 50 H V L CNN
+F1 "KiCAD_Demo_10K" -75 -75 39 H V L CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:R0402" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.in/product-detail/en/yageo/AC0402FR-0710KL/YAG3436CT-ND/6006285" 0 0 50 H I C CNN "Digikey"
+F5 "AC0402FR-0710KL" 0 0 50 H I C CNN "Part Number"
+F6 "RES SMD 10K OHM 1% 1/16W 0402" 0 0 50 H I C CNN "Description"
+F7 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -70 -30 70 30 0 1 8 N
+X ~ 1 -100 0 30 R 50 50 1 1 P
+X ~ 2 100 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_1K
+#
+DEF KiCAD_Demo_1K R 0 10 N N 1 F N
+F0 "R" -25 75 50 H V L CNN
+F1 "KiCAD_Demo_1K" -75 -75 39 H V L CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:R0603" -50 -150 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.in/product-detail/en/yageo/RC0603FR-071KL/311-1-00KHRCT-ND/729790" 50 -150 50 H I C CNN "Digikey"
+F5 "RC0603FR-071KL" 150 -200 50 H I C BNN "Part Number"
+F6 "RES SMD 1K OHM 1% 1/10W 0603" 300 -150 50 H I C CNN "Description"
+F7 "Yageo" 0 -150 50 H I C CNN "Manufacturer"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -70 -30 70 30 0 1 8 N
+X ~ 1 -100 0 30 R 50 50 1 1 P
+X ~ 2 100 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_1uF
+#
+DEF KiCAD_Demo_1uF C 0 40 N N 1 F N
+F0 "C" 100 0 39 H V C CNN
+F1 "KiCAD_Demo_1uF" 100 -100 28 H V C CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:C0402" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/tdk-corporation/C3216X7R2A105K160AA/445-4467-1-ND/2042263" -200 -350 50 H I C CNN "Digikey"
+F5 "C3216X7R2A105K160AA" 0 -350 50 H I C CNN "Part Number"
+F6 "CAP CER 1UF 100V X7R 1206" -100 -350 50 H I C CNN "Description"
+F7 "Yageo" -50 -350 50 H I C CNN "Manufacturer"
+ALIAS untitled_copy2
+DRAW
+S 50 -50 -50 -50 0 1 0 N
+S 50 0 -50 0 0 1 0 N
+X 1 1 0 100 100 D 50 50 1 1 I
+X 2 2 0 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_2K
+#
+DEF KiCAD_Demo_2K R 0 10 N N 1 F N
+F0 "R" -25 75 50 H V L CNN
+F1 "KiCAD_Demo_2K" -75 -75 39 H V L CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:R0402" -50 -150 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.in/product-detail/en/yageo/RC0402FR-072KL/311-2KLRCT-ND/2827883" 50 -150 50 H I C CNN "Digikey"
+F5 "RC0402FR-072KL" 150 -200 50 H I C BNN "Part Number"
+F6 "RES SMD 2K OHM 1% 1/16W 0402" 300 -150 50 H I C CNN "Description"
+F7 "Yageo" 0 -150 50 H I C CNN "Manufacturer"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -70 -30 70 30 0 1 8 N
+X ~ 1 -100 0 30 R 50 50 1 1 P
+X ~ 2 100 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_BQ24040DSQR
+#
+DEF KiCAD_Demo_BQ24040DSQR U 0 40 Y Y 1 F N
+F0 "U" -50 550 50 H V L BNN
+F1 "KiCAD_Demo_BQ24040DSQR" -500 -600 50 H V L BNN
+F2 "KiCAD Demo- Buck-Boost Regulator:BQ2404-SON40P200X200X80-11N" -375 -850 50 H I L BNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/texas-instruments/BQ24040DSQR/296-37142-1-ND/4505899" -375 -850 50 H I C CNN "Digikey"
+F5 "BQ24040DSQR" -200 -700 50 H I C CNN "Part Number"
+F6 "IC BATT CHG LI-ION 1 CELL 10SON" 50 -825 50 H I C CNN "Description"
+F7 "TI" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+P 2 0 0 16 -500 -500 -500 500 N
+P 2 0 0 16 -500 500 500 500 N
+P 2 0 0 16 500 -500 -500 -500 N
+P 2 0 0 16 500 500 500 -500 N
+X IN 1 -700 300 200 R 40 40 0 0 I
+X OUT 10 700 350 200 L 40 40 0 0 O
+X EXP 11 700 -450 200 L 40 40 0 0 W
+X ISET 2 -700 -100 200 R 40 40 0 0 I
+X VSS 3 700 -350 200 L 40 40 0 0 W
+X PRETERM 4 -700 -250 200 R 40 40 0 0 I
+X ~PG~ 5 -700 100 200 R 40 40 0 0 O
+X ISET2 7 -700 -400 200 R 40 40 0 0 I
+X ~CHG~ 8 700 50 200 L 40 40 0 0 O
+X TS 9 700 -200 200 L 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# KiCAD_Demo_LED
+#
+DEF KiCAD_Demo_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "KiCAD_Demo_LED" 0 -100 50 H V C CNN
+F2 "KiCAD Demo- Buck-Boost Regulator:D0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/lite-on-inc/LTST-C190GKT/160-1183-1-ND/269255?cur=INR&lang=en" 0 -150 50 H I C CNN "Digikey"
+F5 "LED GREEN CLEAR CHIP SMD" 0 -150 50 H I C CNN "Description"
+F6 "LTST-C190GKT" -50 -150 50 H I C CNN "Part Number"
+F7 "Lite-On Inc." -50 -150 50 H I C CNN "Manufacturer"
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

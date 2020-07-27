@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date "2020-07-26"
 Rev "V1"
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L KiCAD~Demo:BlockDiagram BD?
-U 1 1 5F1D5706
-P 4900 4750
-F 0 "BD?" H 5300 5100 59  0001 C CNN
-F 1 "BlockDiagram" H 5300 5100 59  0001 C CNN
-F 2 "" H 5300 5100 59  0001 C CNN
-F 3 "" H 5300 5100 59  0001 C CNN
-	1    4900 4750
-	1    0    0    -1  
-$EndComp
 Text Notes 4950 4900 0    79   ~ 16
 TPS63802
 Text Notes 4900 5250 0    50   ~ 0
@@ -58,4 +47,10 @@ Text Notes 4050 4800 0    39   ~ 0
 External/Battery Supply
 Text Notes 6200 4550 0    47   ~ 0
 2.5A
+$Sheet
+S 12000 800  1600 900 
+U 5F1E11EF
+F0 "Charger+BuckBoost" 50
+F1 "file5F1E11EE.sch" 50
+$EndSheet
 $EndSCHEMATC
